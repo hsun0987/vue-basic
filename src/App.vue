@@ -1,16 +1,23 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <!-- <HelloWorld msg="Hello World"/> -->
+  <!-- <FavoriteNation/> -->
+  <!-- <EventHandling/> -->
+  <Nations/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+// import HelloWorld from './components/HelloWorld.vue'
+// import FavoriteNation from './components/FavoriteNation.vue';
+// import EventHandling from './components/EventHandling.vue';
+import Nations from './components/Nations.vue';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
-  }
+    // FavoriteNation
+    // EventHandling
+    Nations
+}
 }
 </script>
 
